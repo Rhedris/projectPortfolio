@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Animations.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/051f1f7418.js" crossorigin="anonymous"></script>
+
+    <script src="script.js" defer></script>
+    <script src="Scrollsmooth.js" defer></script>
+</head>
+
+
+<body>
+    <div id="Hero">
+        <div class="container">
+            <div class="Navbar">
+                <div class="Right-B">
+                    <a href="javascript:void(0);" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <img src="Images/Logo1.png" class="Logo">
+                <nav>
+                    <div class="H-Container">
+                        <div id="Links">
+                            <li><a href="#Hero">Home</a></li>
+                            <li><a href="#About">About me</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Projects">Projects</a></li>
+                            <li><a href="#Contact">Contacts</a></li>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="Header-Text">
+                <section class="hidden">
+                    <h1 class="Header" >Hi, my name is <span style="color:#ff2079; font-family: 'Ostrich Sans Rounded', sans-serif;">V</span>iet</h1>
+                    <h6 class="Sub-Header">I am passionate Coder based in Czech Republic</h6>
+                    <p>UI/UX Product Designer | Front-End Developer</p>
+                    <button onclick="window.location.href='#Contact'" class="custom-btn btn"><h6>Contact Me</h6></button>
+                </section>
+            </div>
+            <div class="Social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div id="About">
+        <div class="Aline"></div>
+        <section class="hidden">
+            <div class="container">
+                <h1>About Me</h1>
+                <h6 class="An hidden">I'm a 20-year-old from the Czech Republic with a love for volleyball and a love for graphic design, photography, and video development. Join me on my creative journey! <br>🏐🎨📷🎥</h6>
+            </div>
+        </section>
+    </div>
+    
+    <div id="Skills">
+        <div class="container">
+            <section class="hidden">
+                <h1>Skills</h1>
+            </section>
+            <div class="line"></div>
+            <div class="Language">
+                <div class="lang hidden">
+                    <img src="Images/html.png">
+                </div>
+                <div class="lang hidden">
+                    <img src="Images/css.png">
+                </div>
+                <div class="lang hidden">
+                    <img src="Images/java.png">
+                </div>
+            </div>
+            <div class="sText">
+                <div class="stextl hidden">
+                    <h6>HTML</h6>
+                </div>
+                <div class="stextl hidden">
+                    <h6>CSS</h6>
+                </div>
+                <div class="stextl hidden">
+                    <h6>Java Script</h6>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div id="Projects">
+        <div class="container">
+            <section class="">
+                <h1>My Projects</h1>
+                <div class="Boxes">
+                    <div class="Showcase">
+                        <img src="Images/Shop.png">
+                        <div class="layer">
+                            <h3>Shop</h3>
+                        </div>
+                    </div>
+
+                    <div class="Showcase">
+                        <img src="Images/Shop.png">
+                        <div class="layer">
+                            <h3>Shop</h3>
+                        </div>
+                    </div>
+
+                    <div class="Showcase">
+                        <img src="Images/Shop.png">
+                        <div class="layer">
+                            <h3>Shop</h3>
+                        </div>
+                    </div>
+
+                    <div class="Showcase">
+                        <img src="Images/Shop.png">
+                        <div class="layer">
+                            <h3>Shop</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div id="Contact">
+        <div class="container">
+            <div class="con">
+                <div class="contact-left">
+                    <div class="Wr"><h2>Write me</h2></div>
+                    <form class="form-inline" action="/action_page.php">
+                        <input type="name" class="resizedTextbox" name="Name" placeholder="Name" required>
+                        <input type="email" class="resizedTextbox" name="Email" placeholder="E-Mail" required>
+                        <input type="text" class="resizedTextbox" name="Subject" placeholder="Subject">
+                        <textarea name="message" class="resizedTextMesbox" placeholder="Message"></textarea>
+                        <button type="submit" class="but" style="background-color: #440bd4;">Send Message</button>   
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <div class="HeadC">
+                        <h2>Contact Information</h2>
+                        <h6>If you are interested to make a Website contact me</h6>
+                    </div>
+                    <div class="Con-info">
+                        <div class="icons">
+                            <i class="fa-solid fa-phone text"><p>+420 777 888 999</p></i>
+                            <i class="fa-regular fa-envelope text"><p>putmail@mail.com</p></i>
+                            <i class="fa-solid fa-earth-americas text"><p>wwww.me.dev</p></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
